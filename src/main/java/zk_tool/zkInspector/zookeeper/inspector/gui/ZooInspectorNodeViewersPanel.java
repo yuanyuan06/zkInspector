@@ -41,6 +41,10 @@ public class ZooInspectorNodeViewersPanel extends JPanel implements TreeSelectio
 		ChangeListener
 {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6259004109146603658L;
 	private final List<ZooInspectorNodeViewer> nodeVeiwers = new ArrayList<ZooInspectorNodeViewer>();
 	private final List<Boolean> needsReload = new ArrayList<Boolean>();
 	private final JTabbedPane tabbedPane;

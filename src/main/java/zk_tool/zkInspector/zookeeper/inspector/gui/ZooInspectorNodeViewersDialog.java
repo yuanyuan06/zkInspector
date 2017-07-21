@@ -60,6 +60,7 @@ import zk_tool.zkInspector.zookeeper.inspector.manager.ZooInspectorManager;
 public class ZooInspectorNodeViewersDialog extends JDialog implements ListSelectionListener
 {
 
+	private static final long serialVersionUID = -2868599575263991826L;
 	private final JButton upButton;
 	private final JButton downButton;
 	private final JButton removeButton;

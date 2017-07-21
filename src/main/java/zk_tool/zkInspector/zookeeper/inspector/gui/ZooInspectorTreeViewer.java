@@ -54,6 +54,10 @@ import zk_tool.zkInspector.zookeeper.inspector.manager.ZooInspectorManager;
  */
 public class ZooInspectorTreeViewer extends JPanel implements NodeListener
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3772750466228728202L;
 	private final ZooInspectorManager zooInspectorManager;
 	private final JTree tree;
 	private final Toaster toasterManager;
@@ -167,6 +171,11 @@ public class ZooInspectorTreeViewer extends JPanel implements NodeListener
 	 */
 	private class ZooInspectorTreeCellRenderer extends DefaultTreeCellRenderer
 	{
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = -5870235659278745304L;
+
 		public ZooInspectorTreeCellRenderer()
 		{
 			setLeafIcon(ZooInspectorIconResources.getTreeLeafIcon());

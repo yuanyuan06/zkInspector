@@ -52,6 +52,11 @@ public class ZooInspectorConnectionPropertiesDialog extends JDialog
 {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7361127519639237181L;
+
+	/**
 	 * @param connectionPropertiesTemplateAndLabels
 	 * @param zooInspectorPanel
 	 */

@@ -44,6 +44,8 @@ import zk_tool.zkInspector.zookeeper.inspector.manager.ZooInspectorManager;
  */
 public class ZooInspectorPanel extends JPanel implements NodeViewersChangeListener
 {
+	private static final long serialVersionUID = 7086797706089567738L;
+	
 	private final JButton refreshButton;
 	private final JButton disconnectButton;
 	private final JButton connectButton;

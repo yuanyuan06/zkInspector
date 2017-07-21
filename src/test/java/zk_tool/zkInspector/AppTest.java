@@ -1,9 +1,5 @@
 package zk_tool.zkInspector;
 
-import java.net.URL;
-
-import javax.swing.ImageIcon;
-
 import org.junit.Test;
 
 /**

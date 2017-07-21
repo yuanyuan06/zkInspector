@@ -39,6 +39,11 @@ import zk_tool.zkInspector.zookeeper.inspector.logger.LoggerFactory;
 public class ZooInspectorAboutDialog extends JDialog
 {
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8276954817388274217L;
+
+	/**
 	 * @param frame
 	 * 
 	 */
